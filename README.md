@@ -1,6 +1,6 @@
 # Drug-Discovery-Using-GAN
 
-The model implements a deep learning and reinforcement learning approaches. It integrates two different deep neural networks - generator and discriminator with reinforcement learning. These two models are trained seperately but are used jointly to generate novel targeted chemical libraries.
+The model implements deep learning and reinforcement learning approaches. It integrates two different deep neural networks - generator and discriminator with reinforcement learning. These two models are trained separately but are used jointly to generate novel targeted chemical libraries.
 
 The model uses string representation of molecules by their simplified molecule-input line entry-system (SMILES). In this system, the generative model is used to produce novel chemically feasible molecules, that is, it plays a role of an agent, whereas the discriminative model (that predicts the properties of novel compounds) plays the role of a critic, which estimates the agent’s behavior by assigning a numerical reward (or penalty) to every generated molecule.
 
